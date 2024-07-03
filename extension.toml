@@ -1,0 +1,15 @@
+id = "csharp-ls"
+name = "C# (csharp-ls)"
+description = "C# support with csharp-ls LSP server."
+version = "0.0.1"
+schema_version = 1
+authors = ["Rui Silva <rui.alias.pt@gmail.com>"]
+repository = "https://github.com/RuiAlias/zed-csharp-ls"
+
+[language_servers.csharp-ls]
+name = "CSharp-ls"
+language = "CSharp"
+
+[grammars.c_sharp]
+repository = "https://github.com/tree-sitter/tree-sitter-c-sharp"
+commit = "dd5e59721a5f8dae34604060833902b882023aaf"
